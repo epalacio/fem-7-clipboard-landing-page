@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from 'react';
+import './index.css';
+import logo from './img/logo.svg';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p className="text-8xl text-red-800">
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+//Fragment is temporary before setting up router
+  <Fragment>
+<h1>Hello world</h1>
+<img src={logo}alt="logo" />
+  </Fragment>
+);
 
 export default App;
