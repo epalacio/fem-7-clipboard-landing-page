@@ -1,11 +1,8 @@
-import React, { Fragment } from 'react';
-import logo from '../../img/logo.svg';
-
-const Title = () => {
+const Title = (props) => {
     return (
         <div>
-            <h1>Title</h1>
-            <img src={logo}alt="logo" />
+            <h2>{props.mainTitle}</h2>
+            <p>{props.mainDescription}</p>
         </div>
     );
 }
