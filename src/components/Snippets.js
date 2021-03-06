@@ -32,13 +32,13 @@ const Snippets = () => {
 
 
     return (
-        <div className="text-center px-8 pb-12">
+        <div className="text-center px-8 md:px-20 lg:px-60 pb-12 mb-16 xl:px-64">
             <Title
                 mainTitle={mainTitle}
                 mainDescription={mainDescription}
             />
-            <div>
-                <img src={imageComputer} alt="iMac with water background and green checkmark modal centered"/>
+            <div className="xl:grid xl:grid-cols-2 text-left">
+                <img className="md:max-w-md mx-auto xl:max-w-max xl:-ml-96 2xl:ml-44" src={imageComputer} alt="iMac with water background and green checkmark modal centered"/>
                 <div>
                     {mappedAttributes}
                 </div>

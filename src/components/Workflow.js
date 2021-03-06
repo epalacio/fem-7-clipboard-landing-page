@@ -36,13 +36,14 @@ const Workflow = () => {
     )
 
     return (
-        <div className="text-center px-8 pb-12">
+        <div className="text-center px-8 md:px-20 lg:px-42 pb-12 mb-16">
             <Title
                 mainTitle={mainTitle}
                 mainDescription={mainDescription}
             />
-            {mappedAttributes}
-            <div></div>
+            <div className="lg:grid lg:grid-cols-3 lg:items-baseline">
+                {mappedAttributes}
+            </div>
         </div>
     )
 }

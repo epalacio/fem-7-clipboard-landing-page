@@ -13,7 +13,7 @@ const Sponsors = () => {
     )
 
     return (
-        <div className="text-center px-8 pb-12">
+        <div className="text-center px-8 md:px-20 mb-16 lg:grid lg:mx-1 lg:grid-cols-5">
             {mappedLogos}
         </div>
     );
