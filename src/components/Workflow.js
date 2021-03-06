@@ -41,7 +41,7 @@ const Workflow = () => {
                 mainTitle={mainTitle}
                 mainDescription={mainDescription}
             />
-            <div className="lg:grid lg:grid-cols-3 lg:items-baseline">
+            <div className="lg:grid lg:grid-cols-3 lg:items-baseline xl:mx-40">
                 {mappedAttributes}
             </div>
         </div>
