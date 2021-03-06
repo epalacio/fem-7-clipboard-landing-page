@@ -32,7 +32,7 @@ const Snippets = () => {
 
 
     return (
-        <div>
+        <div className="text-center px-8 pb-12">
             <Title
                 mainTitle={mainTitle}
                 mainDescription={mainDescription}

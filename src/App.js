@@ -8,6 +8,7 @@ import Workflow from './components/Workflow';
 import Sponsors from './components/Sponsors';
 import MobileApps from './components/MobileApps';
 import Footer from './components/Footer';
+import FEMentor from './components/FEMentor'
 
 const App = () => (
 //Fragment is temporary before setting up router
@@ -19,6 +20,7 @@ const App = () => (
     <Sponsors/>
     <MobileApps/>
     <Footer/>
+    <FEMentor/>
   </Fragment>
 );
 

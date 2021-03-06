@@ -8,12 +8,12 @@ const Sponsors = () => {
 
     const logos = [logoGoogle, logoIBM, logoMicrosoft, logoHP, logoVG];
 
-    const mappedLogos = logos.map(logo =>
-        <img src={logo} alt=""/>
+    const mappedLogos = logos.map((logo, index) =>
+        <img className="mx-auto py-6" key={index} src={logo} alt=""/>
     )
 
     return (
-        <div>
+        <div className="text-center px-8 pb-12">
             {mappedLogos}
         </div>
     );

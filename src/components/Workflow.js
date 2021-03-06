@@ -26,10 +26,9 @@ const Workflow = () => {
     ]
 
     const mappedAttributes = attributes.map((attribute, index) =>
-        <div>
-            <img src={attribute.img} alt="logo"/>
+        <div key={index}>
+            <img  className="mx-auto mt-16" src={attribute.img} alt="logo"/>
             <Attributes
-                key={index}
                 attributesTitle={attribute.title}
                 attributesDescription={attribute.description}
             />
@@ -37,7 +36,7 @@ const Workflow = () => {
     )
 
     return (
-        <div>
+        <div className="text-center px-8 pb-12">
             <Title
                 mainTitle={mainTitle}
                 mainDescription={mainDescription}

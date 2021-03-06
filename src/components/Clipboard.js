@@ -6,7 +6,7 @@ const Clipboard = () => {
     const mainDescription = 'Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.'
 
     return (
-        <div>
+        <div className="text-center px-8 pb-12">
             <Title
                 mainTitle={mainTitle}
                 mainDescription={mainDescription}
